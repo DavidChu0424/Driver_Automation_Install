@@ -1,5 +1,5 @@
-This Tool can help User to Install the OS Driver Automationly. 
-Support Dell DUP Driver only now.
+1. This Tool can help User to Install the OS Driver Automationly. 
+2. Support Dell DUP Driver only now.
 
 Step : 
    - Download the Dell DUP Driver which match with your System.
