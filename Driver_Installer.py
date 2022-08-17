@@ -18,13 +18,13 @@ def execCmd(cmd):
     text = r.read()
     r.close()
     return text
-    
+
 
 def exportTxt(cmdresult, username):
     with open(username + "_Pass" + ".txt","w") as f:
       f.write(cmdresult)
 
-
+    
 for i in range(len(files)):
     cmd = str(files[i]) + "  /s"
     execCmd(cmd)
